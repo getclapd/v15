@@ -1,0 +1,211 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("clapds hub", "GrapeTheme")
+
+
+local Tab = Window:NewTab("break in")
+local Mainsection = Tab:NewSection("break in")
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("clapds hub", "GrapeTheme")
+
+
+local Tab = Window:NewTab("break in")
+local Mainsection = Tab:NewSection("break in")
+
+
+Mainsection:NewButton("break in", "give/op", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Break-In-Story-/main/Break%20In%20Story%20Hub"))()
+end)
+
+local Tab = Window:NewTab("hubs")
+local hubssection = Tab:NewSection("hubs")
+
+hubssection:NewButton("unfair hub", "hub", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+ end)
+
+ hubssection:NewButton("milk up hub", "hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+
+hubssection:NewButton("fe hub1", "hub", function()
+    _G.CustomUI = false
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+ end)
+ 
+ hubssection:NewButton("lunarhubnicebye-key", "hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+ end)
+
+ hubssection:NewButton("vhub", "script", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+ end)
+ 
+ hubssection:NewButton("proto s hub fe", "script", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ProtoRBLX/Proto-s-Game-Multi-Game-Hub-v7/main/README.md'),true))()
+ end)
+
+ hubssection:NewButton("zamine hub", "script", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ProtoRBLX/Zanime-Hub/main/README.md'),true))()
+ end)
+ 
+ hubssection:NewButton("hub", "script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sxrge3k/sxrge_ssh_hub/main/sxrge_script_hub"))()
+ end)
+
+ local Tab = Window:NewTab("door")
+ local doorSection = Tab:NewSection("door")
+
+ doorSection:NewButton("doors gui1", "doors", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
+ end)
+
+ doorSection:NewButton("doors hub", "doors", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+ end)
+
+ doorSection:NewButton("doors2", "script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SindubsMini/doors-script/main/Doors/Script.lua"))()
+ end)
+
+ doorSection:NewButton("doors1", "script", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+ end)
+
+ local Tab = Window:NewTab("mm2")
+local mm2section = Tab:NewSection("mm2")
+
+mm2section:NewButton("blood-moon-event", "mm2", function()
+    local a,b,c,d=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,"https://itsjidy.github.io/SymphonyHub/Loader.html"c(a and b, "Your Executor does not support.")a(b({Url=d,Method="GET"}).Body)()
+ end)
+
+  local Tab = Window:NewTab("psx")
+ local psxSection = Tab:NewSection("psx")
+
+ psxSection:NewButton("milk up", "psx", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
+end)
+
+psxSection:NewButton("catalast", "op", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
+end)
+
+psxSection:NewButton("changer", "op", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/Changer"))()
+end)
+
+psxSection:NewButton("huge games hub", "op", function()
+    loadstring(game:HttpGet("https://hugegames.io/psx"))()
+end)
+
+psxSection:NewButton("jmes", "op", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
+
+psxSection:NewButton("bt project", "op", function()
+    loadstring(game:HttpGetAsync("https://gitlab.com/Sky2836/test/-/raw/main/Auth"))()
+end)
+
+psxSection:NewButton("wd project", "op", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+end)
+
+psxSection:NewButton("cloud hub", "op", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+end)
+
+local Tab = Window:NewTab("dahood")
+local dahoodSection = Tab:NewSection("dahood")
+
+dahoodSection:NewButton("idk", "da hood", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+ end)
+
+ dahoodSection:NewButton("nukeity", "da hood", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+ end)
+
+ dahoodSection:NewButton("lagacy", "da hood", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
+ end)
+
+ dahoodSection:NewButton("spacex", "dahood", function()
+    loadstring(game:HttpGet('https://ekso.gq/raw/relases/zapped.lua'))()
+ end)
+
+ dahoodSection:NewButton("swag mode real", "script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+ end)
+
+ dahoodSection:NewButton("swag dahood", "script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+ end)
+
+ dahoodSection:NewButton("pluto", "script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+ end)
+
+ local Tab = Window:NewTab("babft")
+local babftSection = Tab:NewSection("babft")
+
+babftSection:NewButton("babft", "auto", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Build-A-Boat'))()
+end)
+
+local Tab = Window:NewTab("random")
+local randomSection = Tab:NewSection("random")
+
+randomSection:NewButton("drive world", "hub", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/BrickPlayz/Public-Scripts/main/DriveWorld.lua"))()
+end)
+
+randomSection:NewButton("pantom forces", "hub", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/mopsfl/rbxmopshub/main/loader.lua"))()
+end)
+
+
+randomSection:NewButton("prision-1", "script", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/gzFFc9tX"))()
+end)
+
+randomSection:NewButton("prision-2", "script", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/xRawnder/main/Project'))()
+end)
+
+local Tab = Window:NewTab("scripts")
+local scriptsSection = Tab:NewSection("scripts")
+
+randomSection:NewButton("stream sniper", "join games", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/StreamSniper.lua"))()
+end)
+
+randomSection:NewButton("cursor", "script", function()
+   loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+end)
+
+randomSection:NewButton("keyboard", "script", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+local Tab = Window:NewTab("bloxfruits")
+local bloxfruitsSection = Tab:NewSection("bloxfruits")
+
+bloxfruitsSection:NewButton("blox fruits", "hub", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/NinoGod/NetnaYay/8d21ce23346c500c93bb8b4a71f7791e4058a70b/startload.lua'))()
+end)
+
+local Tab = Window:NewTab("asernal")
+local arsenalSection = Tab:NewSection("arsenal")
+
+arsenalSection:NewButton("areanal", "aim", function()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+end)
+
+local Tab = Window:NewTab("credits")
+local creditssection = Tab:NewSection("credits")
+
+creditssection:NewLabel("made by clapd")
+
+creditssection:NewLabel("fuck u")
+
+creditssection:NewLabel("nigger")
